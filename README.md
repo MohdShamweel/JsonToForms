@@ -27,7 +27,7 @@ dependencies {
 	
 ```
 
-Step 4. The dependency contains Java 8 bytecode. Add the following to build.gradle
+Step 3. The dependency contains Java 8 bytecode. Add the following to build.gradle
 ```bash
            android {
                compileOptions {
@@ -37,12 +37,12 @@ Step 4. The dependency contains Java 8 bytecode. Add the following to build.grad
            }
 ```
 
-Step 3. The Activity which contains forms must be a descendant of Material Theme:
+Step 4. The Activity which contains forms must be a descendant of Material Theme:
 
 ```bash
 parent="Theme.MaterialComponents.Light.DarkActionBar"
 ``` 
-Step 4. Sync the Project for gradle to finish.	
+Step 5. Sync the Project for gradle to finish.	
 
 ## Usage
 

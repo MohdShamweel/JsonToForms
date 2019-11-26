@@ -2,9 +2,9 @@
 
 A simple library which uses JSON to build forms
 
-https://user-images.githubusercontent.com/34341190/69613066-e432fc80-1056-11ea-825f-6e33fbe7b73a.jpeg
+![1](https://user-images.githubusercontent.com/34341190/69613066-e432fc80-1056-11ea-825f-6e33fbe7b73a.jpeg)
 
-https://user-images.githubusercontent.com/34341190/69613102-f7de6300-1056-11ea-8b46-24288a90c5c5.jpeg
+![2]https://user-images.githubusercontent.com/34341190/69613102-f7de6300-1056-11ea-8b46-24288a90c5c5.jpeg)
 
 ## Installation
 

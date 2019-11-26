@@ -7,10 +7,10 @@ A simple library which uses JSON to build forms
 Step 1. Add the JitPack repository to your build file:
 
 ```bash
-		repositories {
-			...
-			maven { url 'https://jitpack.io' }
-		}
+repositories {
+	...
+	maven { url 'https://jitpack.io' }
+	}
 
 ```
   
@@ -19,11 +19,11 @@ Step 2. Add the dependency
 
 ```bash
 dependencies {
-	         implementation 'com.github.MohdShamweel:JsonToForms:0.1.0'
+	  implementation 'com.github.MohdShamweel:JsonToForms:0.1.0'
                 
-             //Support Material dependency
-             implementation 'com.google.android.material:material:1.1.0-alpha09'
-	}
+     //Support Material dependency
+     implementation 'com.google.android.material:material:1.1.0-alpha09'
+	     }
 	
 ```
 
@@ -186,6 +186,9 @@ TYPE_SUBMIT_BUTTON = 10;
   }
 ]
 ```
+
+## Example:
+To know more about implementation please checkout the [Sample App](https://github.com/MohdShamweel/JsonToForms/tree/master/app)
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.

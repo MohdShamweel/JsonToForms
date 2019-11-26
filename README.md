@@ -27,6 +27,16 @@ dependencies {
 	
 ```
 
+Step 4. The dependency contains Java 8 bytecode. Add the following to build.gradle
+```bash
+           android {
+               compileOptions {
+                   sourceCompatibility 1.8
+                   targetCompatibility 1.8
+               }
+           }
+```
+
 Step 3. The Activity which contains forms must be a descendant of Material Theme:
 
 ```bash

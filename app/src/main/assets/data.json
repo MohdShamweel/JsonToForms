@@ -1,0 +1,390 @@
+[
+    {
+        "_id": "electricity_connection",
+        "text": "Electricity Connection to Household",
+        "is_required" : true,
+        "list": [
+            {
+                "index": 0,
+                "index_text": "Yes"
+            },
+            {
+                "index": 1,
+                "index_text": "No"
+            }
+        ],
+        "type": 4
+    },
+    {
+        "_id": "electricity_availability",
+        "text": "Electricity Availability per day (hours)",
+        "hint": "Electricity Availability per day (hours)",
+        "input_type": "numbers",
+        "max_length" : 2,
+        "type": 2
+    },
+    {
+        "_id": "6",
+        "text": "6. Hi, I am Space",
+        "type": 6
+    },
+    {
+        "_id": "lighting",
+        "text": "Lighting",
+        "list": [
+            {
+                "index": 0,
+                "index_text": "Electricity"
+            },
+            {
+                "index": 1,
+                "index_text": "Kerosene"
+            },
+            {
+                "index": 2,
+                "index_text": "Solar Power"
+            }
+        ],
+        "type": 3
+    },
+    {
+        "_id": "lighting_any_other",
+        "text": "Mention if Any Other",
+        "hint": "Mention if Any Other",
+        "input_type": "text",
+        "type": 2
+    },
+    {
+        "_id": "6",
+        "text": "6. Hi, I am Space",
+        "type": 6
+    },
+    {
+        "_id": "cooking",
+        "text": "Cooking",
+        "list": [
+            {
+                "index": 0,
+                "index_text": "LPG"
+            },
+            {
+                "index": 1,
+                "index_text": "Biogas"
+            },
+            {
+                "index": 2,
+                "index_text": "Kerosene"
+            },
+            {
+                "index": 3,
+                "index_text": "Wood"
+            },
+            {
+                "index": 4,
+                "index_text": "Cow Dung"
+            },
+            {
+                "index": 5,
+                "index_text": "AgroResidues"
+            }
+        ],
+        "type": 3
+    },
+    {
+        "_id": "cooking_any_other",
+        "text": "Mention if Any Other",
+        "hint": "Mention if Any Other",
+        "input_type": "text",
+        "type": 2
+    },
+    {
+        "_id": "6",
+        "text": "6. Hi, I am Space",
+        "type": 6
+    },
+    {
+        "_id": "cooking_in_chullah",
+        "text": "If cooking in Chullah",
+        "list": [
+            {
+                "index": 0,
+                "index_text": "Normal"
+            },
+            {
+                "index": 0,
+                "index_text": "Smokeless"
+            }
+        ],
+        "type": 3
+    },
+    {
+        "_id": "6",
+        "text": "6. Hi, I am Space",
+        "type": 6
+    },
+    {
+        "_id": "txt_appliances",
+        "text": "Appliances (Numbers)",
+        "type": 1
+    },
+    {
+        "_id": "led_bulb_nos",
+        "text": "CFL/LED-Bulb/ Tube Light(20W)",
+        "hint": "CFL/LED-Bulb/ Tube Light(20W)",
+        "input_type": "numbers",
+        "type": 2
+    },
+    {
+        "_id": "led_bulb_duration",
+        "text": "Duration/day (in hours)",
+        "hint": "Duration/day (in hours)",
+        "input_type": "numbers",
+        "max_length" : 2,
+        "type": 2
+    },
+    {
+        "_id": "6",
+        "text": "6. Hi, I am Space",
+        "type": 6
+    },
+    {
+        "_id": "6",
+        "text": "6. Hi, I am Space",
+        "type": 6
+    },
+    {
+        "_id": "fan_nos",
+        "text": "Fan (70W)",
+        "hint": "Fan (70W)",
+        "input_type": "numbers",
+        "type": 2
+    },
+    {
+        "_id": "fan_duration",
+        "text": "Duration/day (in hours)",
+        "hint": "Duration/day (in hours)",
+        "input_type": "numbers",
+        "max_length" : 2,
+        "type": 2
+    },
+    {
+        "_id": "6",
+        "text": "6. Hi, I am Space",
+        "type": 6
+    },
+    {
+        "_id": "6",
+        "text": "6. Hi, I am Space",
+        "type": 6
+    },
+    {
+        "_id": "cooler_nos",
+        "text": "Desert Cooler (150W)",
+        "hint": "Desert Cooler (150W)",
+        "input_type": "numbers",
+        "type": 2
+    },
+    {
+        "_id": "cooler_duration",
+        "text": "Duration/day (in hours)",
+        "hint": "Duration/day (in hours)",
+        "input_type": "numbers",
+        "max_length" : 2,
+        "type": 2
+    },
+    {
+        "_id": "6",
+        "text": "6. Hi, I am Space",
+        "type": 6
+    },
+    {
+        "_id": "6",
+        "text": "6. Hi, I am Space",
+        "type": 6
+    },
+    {
+        "_id": "tv_nos",
+        "text": "TV (150 W)",
+        "hint": "TV (150 W)",
+        "input_type": "numbers",
+        "type": 2
+    },
+    {
+        "_id": "tv_duration",
+        "text": "Duration/day (in hours)",
+        "hint": "Duration/day (in hours)",
+        "input_type": "numbers",
+        "max_length" : 2,
+        "type": 2
+    },
+    {
+        "_id": "6",
+        "text": "6. Hi, I am Space",
+        "type": 6
+    },
+    {
+        "_id": "6",
+        "text": "6. Hi, I am Space",
+        "type": 6
+    },
+    {
+        "_id": "6",
+        "text": "6. Hi, I am Space",
+        "type": 6
+    },
+    {
+        "_id": "refrigerator_nos",
+        "text": "Refrigerator (220W)",
+        "hint": "Refrigerator (220W)",
+        "input_type": "numbers",
+        "type": 2
+    },
+    {
+        "_id": "refrigerator_duration",
+        "text": "Duration/day (in hours)",
+        "hint": "Duration/day (in hours)",
+        "input_type": "numbers",
+        "max_length" : 2,
+        "type": 2
+    },
+    {
+        "_id": "6",
+        "text": "6. Hi, I am Space",
+        "type": 6
+    },
+    {
+        "_id": "6",
+        "text": "6. Hi, I am Space",
+        "type": 6
+    },
+    {
+        "_id": "music_system_nos",
+        "text": "Music System (100W)",
+        "hint": "Music System (100W)",
+        "input_type": "numbers",
+        "type": 2
+    },
+    {
+        "_id": "music_system_duration",
+        "text": "Duration/day (in hours)",
+        "hint": "Duration/day (in hours)",
+        "input_type": "numbers",
+        "max_length" : 2,
+        "type": 2
+    },
+    {
+        "_id": "6",
+        "text": "6. Hi, I am Space",
+        "type": 6
+    },
+    {
+        "_id": "6",
+        "text": "6. Hi, I am Space",
+        "type": 6
+    },
+    {
+        "_id": "motor_pump_nos",
+        "text": "Electric Motor Pump (750W)",
+        "hint": "Electric Motor Pump (750W)",
+        "input_type": "numbers",
+        "type": 2
+    },
+    {
+        "_id": "motor_pump_duration",
+        "text": "Duration/day (in hours)",
+        "hint": "Duration/day (in hours)",
+        "input_type": "numbers",
+        "max_length" : 2,
+        "type": 2
+    },
+    {
+        "_id": "6",
+        "text": "6. Hi, I am Space",
+        "type": 6
+    },
+    {
+        "_id": "6",
+        "text": "6. Hi, I am Space",
+        "type": 6
+    },
+    {
+        "_id": "heater_nos",
+        "text": "Heater (1000W)",
+        "hint": "Heater (1000W)",
+        "input_type": "numbers",
+        "type": 2
+    },
+    {
+        "_id": "heater_duration",
+        "text": "Duration/day (in hours)",
+        "hint": "Duration/day (in hours)",
+        "input_type": "numbers",
+        "max_length" : 2,
+        "type": 2
+    },
+    {
+        "_id": "6",
+        "text": "6. Hi, I am Space",
+        "type": 6
+    },
+    {
+        "_id": "6",
+        "text": "6. Hi, I am Space",
+        "type": 6
+    },
+    {
+        "_id": "electric_iron_nos",
+        "text": "Electric Iron (1000W)",
+        "hint": "Electric Iron (1000W)",
+        "input_type": "numbers",
+        "type": 2
+    },
+    {
+        "_id": "electric_iron_duration",
+        "text": "Duration/day (in hours)",
+        "hint": "Duration/day (in hours)",
+        "input_type": "numbers",
+        "max_length" : 2,
+        "type": 2
+    },
+    {
+        "_id": "6",
+        "text": "6. Hi, I am Space",
+        "type": 6
+    },
+    {
+        "_id": "6",
+        "text": "6. Hi, I am Space",
+        "type": 6
+    },
+    {
+        "_id": "air_conditioner_nos",
+        "text": "Air Conditioner",
+        "hint": "Air Conditioner",
+        "input_type": "numbers",
+        "type": 2
+    },
+    {
+        "_id": "air_conditioner_duration",
+        "text": "Duration/day (in hours)",
+        "hint": "Duration/day (in hours)",
+        "input_type": "numbers",
+        "max_length" : 2,
+        "type": 2
+    },
+    {
+        "_id": "6",
+        "text": "6. Hi, I am Space",
+        "type": 6
+    },
+    {
+        "_id": "6",
+        "text": "6. Hi, I am Space",
+        "type": 6
+    },
+    {
+        "_id": "submit_button",
+        "text": "Submit",
+        "type": 10
+    }
+]

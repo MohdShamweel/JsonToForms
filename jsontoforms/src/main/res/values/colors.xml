@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#7065B8</color>
+    <color name="colorPrimaryDark">#5447B4</color>
+    <color name="colorPrimaryLight">#807065B8</color>
+    <color name="colorAccent">#7065B8</color>
+    <color name="color_white">#FFFFFF</color>
+    <color name="color_app">#7065B8</color>
+    <color name="color_primary_light">#427ac7</color>
+    <color name="grey_50">#50000000</color>
+    <color name="grey_50_fill">#9C9C9C</color>
+    <color name="black_60_fill">#3D3D3D</color>
+    <color name="primary_50">#50255CA8</color>
+    <color name="grey_30">#30000000</color>
+    <color name="grey_20">#20000000</color>
+    <color name="color_red">#ff0000</color>
+    <color name="color_red_dark">#790000</color>
+    <color name="color_green">#43b600</color>
+    <color name="color_green_99">#9943b600</color>
+    <color name="color_green_50">#5043b600</color>
+    <color name="color_green_dark">#276900</color>
+    <color name="color_green_33">#3343b600</color>
+    <color name="color_green_selected">#F5FDF0</color>
+    <color name="grey_80">#80000000</color>
+    <color name="grey_99">#99000000</color>
+    <color name="color_orange">#ff5722</color>
+    <color name="color_orange_logo">#FF901C</color>
+    <color name="colorSelected">#fff7f5</color>
+    <color name="colorDisable">#FAFAFA</color>
+    <color name="colorDisableRed">#FDC3C3</color>
+    <color name="color_pink">#ae007a</color>
+    <color name="color_transparent">#00000000</color>
+    <color name="color_black_nine">#09000000</color>
+    <color name="color_black_nine_">#F0F0F0</color>
+    <color name="color_black_nine_fill">#F3F3F3</color>
+    <color name="grey_05">#05000000</color>
+    <color name="unnayan_logo_color">#37BCD3</color>
+    <color name="unnayan_logo_sky">#5D6CB1</color>
+    <color name="unnayan_logo_red">#EA5452</color>
+    <color name="white_33">#33FFFFFF</color>
+    <color name="grey">#B0B3B8</color>
+    <color name="dark_grey">#4E4E4E</color>
+    <color name="orange_dark">#d1833d</color>
+    <color name="default_page_blue">#141928</color>
+    <color name="zatrek_blue">#14548c</color>
+
+</resources>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+        android:id="@+id/btn_submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        app:icon="@drawable/ic_verified"
+        app:iconGravity="start"
+        android:gravity="center"
+        android:padding="8dp"
+        android:textColor="@color/color_white"
+        android:backgroundTint="@color/colorPrimary"
+        app:iconTint="@color/color_white"
+        android:layout_gravity="right"
+        android:textSize="16sp"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:layout_marginRight="@dimen/d_40dp"
+        android:layout_marginTop="@dimen/d_32dp"
+        android:layout_marginBottom="@dimen/d_16dp"
+        android:layout_marginLeft="@dimen/d_16dp"/>
+
+
+</LinearLayout>

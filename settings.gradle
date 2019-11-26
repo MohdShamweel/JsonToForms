@@ -1,0 +1,2 @@
+include ':app', ':json2forms2', ':jsontoforms'
+rootProject.name='Json2Forms'

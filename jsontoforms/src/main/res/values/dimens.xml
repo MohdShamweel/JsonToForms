@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="d_32dp">32dp</dimen>
+    <dimen name="d_64dp">64dp</dimen>
+    <dimen name="t_18sp">18sp</dimen>
+    <dimen name="d_16dp">16dp</dimen>
+    <dimen name="d_8dp">8dp</dimen>
+    <dimen name="t_24sp">24sp</dimen>
+    <dimen name="t_32sp">32sp</dimen>
+    <dimen name="d_50dp">50dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- Per the design guidelines, navigation drawers should be between 240dp and 320dp:
+         https://developer.android.com/design/patterns/navigation-drawer.html -->
+    <dimen name="navigation_drawer_width">240dp</dimen>
+    <dimen name="t_36sp">36sp</dimen>
+    <dimen name="t_42sp">42sp</dimen>
+    <dimen name="t_14sp">14sp</dimen>
+    <dimen name="d_75dp">75dp</dimen>
+    <dimen name="d_38dp">38dp</dimen>
+    <dimen name="d_20dp">20dp</dimen>
+    <dimen name="d_24dp">24dp</dimen>
+    <dimen name="d_4dp">4dp</dimen>
+    <dimen name="d_table_height">48dp</dimen>
+    <dimen name="d_1dp">1dp</dimen>
+    <dimen name="d_2dp">2dp</dimen>
+    <dimen name="d_100dp">100dp</dimen>
+    <dimen name="t_16sp">16sp</dimen>
+    <dimen name="d_25dp">25dp</dimen>
+    <dimen name="d_6dp">5dp</dimen>
+    <dimen name="d_12dp">12dp</dimen>
+    <dimen name="button_corner_radius">5dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <dimen name="nav_header_height">176dp</dimen>
+    <dimen name="t_12sp">12sp</dimen>
+    <dimen name="d_40dp">40dp</dimen>
+
+    <dimen name="padding">4dp</dimen>
+    <dimen name="textRegular">8sp</dimen>
+    <dimen name="textHighlighted">8sp</dimen>
+    <dimen name="textPopup">24sp</dimen>
+</resources>

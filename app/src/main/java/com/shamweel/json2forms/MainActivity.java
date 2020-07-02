@@ -1,6 +1,7 @@
 package com.shamweel.json2forms;
 
 import android.os.Bundle;
+import android.util.Log;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -18,8 +19,12 @@ import com.shamweel.jsontoforms.models.JSONModel;
 import com.shamweel.jsontoforms.sigleton.DataValueHashMap;
 import com.shamweel.jsontoforms.validate.CheckFieldValidations;
 
+import org.json.JSONObject;
+
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 public class MainActivity extends AppCompatActivity implements JsonToFormClickListener {
 
@@ -38,7 +43,7 @@ public class MainActivity extends AppCompatActivity implements JsonToFormClickLi
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        //Init Library HasMap
+        //Init Library HashMap
         DataValueHashMap.init();
 
         recyclerView = findViewById(R.id.recyclerview);
@@ -75,7 +80,22 @@ public class MainActivity extends AppCompatActivity implements JsonToFormClickLi
     public void onSubmitButtonClick() {
         if (!CheckFieldValidations.isFieldsValidated(recyclerView, jsonModelList)){
             Toast.makeText(this, "Validation Failed", Toast.LENGTH_SHORT).show();
+            return;
         }
+
+
+        //Combined Data
+        JSONObject jsonObject = new JSONObject(DataValueHashMap.dataValueHashMap);
+        Log.d("onSubmitButtonClick: ", jsonObject.toString());
+
+
+        //If single value required for corresponding _id's
+        for (Map.Entry<String, String> hashMap : DataValueHashMap.dataValueHashMap.entrySet()){
+            String key = hashMap.getKey(); //  _id of the JSONOModel provided
+            String value = hashMap.getValue(); //value entered for the corresponding _id
+            Log.d(key, value);
+        }
+
     }
 
 

@@ -85,6 +85,20 @@ if (!CheckFieldValidations.isFieldsValidated(recyclerView, jsonModelList)){
             Toast.makeText(this, "Validation Failed", Toast.LENGTH_SHORT).show();
     }
 ```
+7. To get data:
+```bash
+//Combined Data:
+   JSONObject jsonObject = new JSONObject(DataValueHashMap.dataValueHashMap);
+   Log.d("onSubmitButtonClick: ", jsonObject.toString());
+
+
+//If single value required for corresponding _id's:
+   for (Map.Entry<String, String> hashMap : DataValueHashMap.dataValueHashMap.entrySet()){
+       String key = hashMap.getKey(); //  _id of the JSONOModel provided
+       String value = hashMap.getValue(); //value entered for the corresponding _id
+       Log.d(key, value);
+     }
+```
 
 ## Fields Types
 ```
